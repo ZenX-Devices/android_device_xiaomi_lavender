@@ -34,6 +34,11 @@ $(call inherit-product, vendor/zenx/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Use Gapps
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lavender" \
