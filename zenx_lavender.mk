@@ -30,7 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
 # Inherit some common Zenx stuff.
-$(call inherit-product, vendor/zenx/config/common.mk)
+$(call inherit-product, vendor/zenx/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
